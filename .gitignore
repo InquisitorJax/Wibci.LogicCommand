@@ -3,3 +3,7 @@
 ################################################################################
 
 /obj/Debug
+/obj/Release
+/nuget
+/Samples/Wibci.LogicCommand.Samples.NativeUWP/bin/x86/Debug
+/Samples/Wibci.LogicCommand.Samples.NativeUWP/obj/x86
