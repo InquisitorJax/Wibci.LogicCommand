@@ -1,7 +1,8 @@
 ﻿{
   "dependencies": {
     "Microsoft.NETCore.UniversalWindowsPlatform": "5.2.2",
-    "Prism.Core": "6.2.0"
+    "Prism.Core": "6.2.0",
+    "Wibci.LogicCommand": "1.0.1"
   },
   "frameworks": {
     "uap10.0": {}

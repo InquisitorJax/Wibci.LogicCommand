@@ -128,12 +128,6 @@
       <SubType>Designer</SubType>
     </Page>
   </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\..\Wibci.LogicCommand.csproj">
-      <Project>{7d26aaac-5689-403d-84ee-9340213a1241}</Project>
-      <Name>Wibci.LogicCommand</Name>
-    </ProjectReference>
-  </ItemGroup>
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>
