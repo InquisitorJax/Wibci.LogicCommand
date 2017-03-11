@@ -24,7 +24,13 @@ namespace Wibci.LogicCommand
 
         public IList<NotificationItem> Items { get; private set; }
 
-        public NotificationSeverity Severity { get; private set; }
+        public NotificationSeverity Severity
+        {
+            get
+            {
+                return Items.Max(x => x.Severity);
+            }
+        }
 
         public static Notification Error(string errorMessage)
         {
@@ -58,14 +64,13 @@ namespace Wibci.LogicCommand
         }
 
         public bool IsValid(NotificationSeverity severity = NotificationSeverity.Error)
-        {
-            //return Severity < severity;
+        {            
             return Items.All(x => x.Severity < severity);
         }
 
         public override string ToString()
         {
-            string retNotification = Description;
+            string retNotification = string.IsNullOrEmpty(Description) ? null : Description;
 
             retNotification += Items.Any() ? Environment.NewLine : null;
 
