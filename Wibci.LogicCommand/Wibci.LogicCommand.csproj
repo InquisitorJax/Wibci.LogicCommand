@@ -10,7 +10,7 @@
     <PackageIconUrl>http://wibcisoft.com/Images/Wibcisoft.png</PackageIconUrl>
     <RepositoryUrl>https://github.com/InquisitorJax/Wibci.LogicCommand</RepositoryUrl>
     <PackageTags>Single Responsibility, Command, UWP, Xamarin, .NET Core</PackageTags>
-    <PackageReleaseNotes>Update to .NET Standard 2</PackageReleaseNotes>
+    <PackageReleaseNotes>Update to .NET Standard</PackageReleaseNotes>
     <Description>Wrap your single responsibility logic using the command pattern.
 var commandResult = await MyCustomLogicCommand.ExecuteAsync(params);</Description>
     <PackageProjectUrl>https://github.com/InquisitorJax/Wibci.LogicCommand</PackageProjectUrl>
