@@ -8,8 +8,11 @@
 /Samples/Wibci.LogicCommand.Samples.NativeUWP/bin/x86/Debug
 /Samples/Wibci.LogicCommand.Samples.NativeUWP/obj/x86
 /bin/Release
-/packages/NUnit.3.6.1
+/packages
 /bin/Release
-/packages/NUnit.3.6.1
-/Wibci.LogicCommand.Tests/bin/Release
-/Wibci.LogicCommand.Tests/obj/Release
+/Wibci.LogicCommand.Tests/bin
+/Wibci.LogicCommand.Tests/obj
+/.vs
+/Wibci.LogicCommand/bin/Release
+/Wibci.LogicCommand/obj
+/Samples/Wibci.LogicCommand.Samples.NativeUWP/obj

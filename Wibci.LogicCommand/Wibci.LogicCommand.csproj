@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.0</TargetFramework>
+    <Version>2.0.0</Version>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Malcolm Jack</Authors>
+    <Company>Wibci Labs</Company>
+    <Product>Command Pattern Wireframe</Product>
+    <PackageIconUrl>http://wibcisoft.com/Images/Wibcisoft.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/InquisitorJax/Wibci.LogicCommand</RepositoryUrl>
+    <PackageTags>Single Responsibility, Command, UWP, Xamarin, .NET Core</PackageTags>
+    <PackageReleaseNotes>Update to .NET Standard 2</PackageReleaseNotes>
+    <Description>Wrap your single responsibility logic using the command pattern.
+var commandResult = await MyCustomLogicCommand.ExecuteAsync(params);</Description>
+    <PackageProjectUrl>https://github.com/InquisitorJax/Wibci.LogicCommand</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|AnyCPU'">
+    <DocumentationFile>bin\Release\netstandard2.0\Wibci.LogicCommand.xml</DocumentationFile>
+  </PropertyGroup>
+
+</Project>
